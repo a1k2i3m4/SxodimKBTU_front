@@ -14,7 +14,7 @@ export const Footer = () => {
         <div className="footer-column">
           <h3 className="footer-header">CONTACT US</h3>
           <p>You are welcome!</p>
-          <p>Email: <em>ar_sarsembek@kbtu.kz</em></p>
+          <p>Email: <em>ak_orazgaliev@kbtu.kz</em></p>
           <p>Location: <em>KBTU</em></p>
         </div>
 
@@ -33,7 +33,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://github.com/sarsembek"
+                href="https://github.com/a1k2i3m4"
                 target='_blank'
                 rel='noopener noreferrer'
                 className='social-media-link'
@@ -42,7 +42,7 @@ export const Footer = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/srsembek/"
+                href="https://www.instagram.com/orazgaliev03/"
                 target='_blank'
                 rel='noopener noreferrer'
                 className='social-media-link'

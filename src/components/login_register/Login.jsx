@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Form, Input, Button, Checkbox, Spin } from 'antd';
 import './Login.css';
 import image from '../../assets/login.svg';

@@ -11,11 +11,12 @@ export const EventProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
     const { currentUser ,userID } = useAuth();
     const [checking, setChecking] = useState(false);
+    
 
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const response = await axios.get('https://sxodim-kbtu.onrender.com/getEvents');
+            const response = await axios.get('http://127.0.0.1:8080/getEvents');
             const eventsWithDate = response.data.map(event => ({
               ...event,
               date: format(new Date(event.date), "MMMM d, yyyy HH:mm"),
